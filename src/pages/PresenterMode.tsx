@@ -114,7 +114,7 @@ export default function PresenterMode() {
       const pool: Question[] = customQuestions || questionSets[setIndex % 5];
       
       // Use the pool as is, since each set already has the questions we want
-      const finalSet = shuffle(pool); 
+      const finalSet = pool; 
 
 
       await updateGameState({ 
