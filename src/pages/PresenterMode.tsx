@@ -108,10 +108,9 @@ export default function PresenterMode() {
     }
   };
 
-  const handleStartGame = async (name: string) => {
+  const handleStartGame = async (name: string, setIdx: number) => {
     try {
-      const setIndex = gameState?.questionSetIndex || 0;
-      const pool: Question[] = customQuestions || questionSets[setIndex % 5];
+      const pool: Question[] = customQuestions || questionSets[setIdx];
       
       // Use the pool as is, since each set already has the questions we want
       const finalSet = pool; 
@@ -130,7 +129,7 @@ export default function PresenterMode() {
         audienceResults: null,
         usedLifelines: [],
         waitingContestants: (gameState?.waitingContestants || []).filter(c => c !== name),
-        questionSetIndex: setIndex + 1,
+        questionSetIndex: setIdx + 1,
       });
       toast.success(`GAME STARTED WITH ${name.toUpperCase()}!`);
     } catch (error) {
@@ -331,11 +330,19 @@ export default function PresenterMode() {
                 <div className="p-12 text-zinc-500 italic">No one here yet...</div>
               ) : (
                 (gameState.waitingContestants || []).map((name, i) => (
-                  <div key={i} className="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition-colors">
+                  <div key={i} className="px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4 hover:bg-white/5 transition-colors">
                     <span className="text-xl font-display font-bold uppercase text-white tracking-wide">{name}</span>
-                    <button onClick={() => handleStartGame(name)} className="px-6 py-2 bg-primary text-white font-bold rounded-lg uppercase text-sm flex items-center gap-2 hover:scale-105 transition-all">
-                      <Play className="w-4 h-4" /> Start Game
-                    </button>
+                    <div className="flex flex-wrap gap-2 justify-center">
+                      {[0, 1, 2, 3, 4].map((idx) => (
+                        <button
+                          key={idx}
+                          onClick={() => handleStartGame(name, idx)}
+                          className="px-3 py-2 bg-zinc-800 hover:bg-primary text-white text-[10px] font-bold rounded border border-zinc-700 transition-all uppercase"
+                        >
+                          Set {idx + 1}
+                        </button>
+                      ))}
+                    </div>
                   </div>
                 ))
               )}
