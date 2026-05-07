@@ -855,5 +855,519 @@ export const set5: Question[] = [
   }
 ];
 
-export const questionSets: Question[][] = [set1, set2, set3, set4, set5];
+export const set6: Question[] = [
+  {
+    "question": "Ayat al-Kursi appears in which Surah of the Qur'an?",
+    "answers": [
+      "Surah al-Baqarah",
+      "Surah Fussilat",
+      "Surah al-Mulk",
+      "Surah al-Waqi'ah"
+    ],
+    "correctIndex": 0,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which surah in the Qur'an contains the name \"Allah\" in every verse?",
+    "answers": [
+      "Surah al-Mujadilah",
+      "Surah Ibrahim",
+      "Surah ar-Rahman",
+      "Surah Yasin"
+    ],
+    "correctIndex": 0,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which surah in the Qur'an is the only one that does not begin with the basmalah?",
+    "answers": [
+      "Surah al-A'raf",
+      "Surah Ankaboot",
+      "Surah Ali Imran",
+      "Surah at-Tawbah"
+    ],
+    "correctIndex": 3,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which surah is said to be equal to a third of the Qur'an?",
+    "answers": [
+      "Surah ar-Rahman",
+      "Surah as-Sajdah",
+      "Surah al-Fatihah",
+      "Surah al-Ikhlas"
+    ],
+    "correctIndex": 3,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which Prophet is mentioned most in the Qur'an?",
+    "answers": [
+      "Musa",
+      "Muhammad ﷺ",
+      "Isa",
+      "Ibrahim"
+    ],
+    "correctIndex": 0,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "What is the first Surah of the 30th Juz' in the Quran?",
+    "answers": [
+      "Surah An-Naba",
+      "Surah An-Naziat",
+      "Surah 'Abasa",
+      "Surah Al-Infitar"
+    ],
+    "correctIndex": 0,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Who is one of the 4 best women of Jannah?",
+    "answers": [
+      "Aasiya (wife of Firawn)",
+      "Hajar (wife of Ibrahim (as))",
+      "Aisha (wife of Muhammad ﷺ)",
+      "Ruqayyah (wife of Uthman)"
+    ],
+    "correctIndex": 0,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "After the wreckage of Prophet Noah’s Ark, which of the following is its place of rest as mentioned in the Qur’an?",
+    "answers": [
+      "Mount Judi",
+      "Mount Sinai",
+      "Mount Fiji",
+      "Next to Cave Hera"
+    ],
+    "correctIndex": 0,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "How many Prophets did Prophet Muhammad ﷺ meet on the different heavens during Isra wal Miraaj?",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 3,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "In the 'Battle of Tabuk', which was the last major expedition led by the Prophet (SAW), which empire were the Muslims preparing to face?",
+    "answers": [
+      "Sassanid Empire",
+      "Byzantine (Roman) Empire",
+      "Abyssinian Empire",
+      "Mongol Empire"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Who was the Sahabi that suggested digging the trench in the Battle of Al-Khandaq?",
+    "answers": [
+      "Salman al-Farsi",
+      "Khalid ibn al-Walid",
+      "Abu Huraira",
+      "Sa'd ibn Mu'adh"
+    ],
+    "correctIndex": 0,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which companion was the only one whom the Prophet (SAW) combined both his parents in a praise, saying: \"May my father and mother be sacrificed for you\"?",
+    "answers": [
+      "Ali ibn Abi Talib",
+      "Sa'd ibn Abi Waqqas",
+      "Umar ibn al-Khattab",
+      "Khalid ibn al-Walid"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "How many times is the word 'Zakat' mentioned in the Holy Quran?",
+    "answers": [
+      "12",
+      "25",
+      "32",
+      "40"
+    ],
+    "correctIndex": 2,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which Sahabi was known as the \"Keeper of the Secret of the Prophet\" (Sahib al-Sirr) because he was given the list of the hypocrites (Munafiqun)?",
+    "answers": [
+      "Abu Bakr as-Siddiq",
+      "Hudhayfah ibn al-Yaman",
+      "Umar ibn al-Khattab",
+      "Muadh ibn Jabal"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  }
+];
+
+export const set7: Question[] = [
+  {
+    "question": "How many chapters (Surahs) are there in the Holy Quran?",
+    "answers": [
+      "99",
+      "114",
+      "124",
+      "313"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "In which direction do Muslims face during their daily prayers?",
+    "answers": [
+      "Towards the Sun",
+      "Towards the Moon",
+      "Towards the Kaaba",
+      "Towards the North Pole"
+    ],
+    "correctIndex": 2,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "What is the name of the month in which Muslims fast from dawn until sunset?",
+    "answers": [
+      "Shawwal",
+      "Ramadan",
+      "Muharram",
+      "Rajab"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "How many years did the Prophet Muhammad (SAW) receive revelation in total?",
+    "answers": [
+      "10 years",
+      "23 years",
+      "40 years",
+      "63 years"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which Sahabi (companion) was known as 'As-Siddiq' (The Truthful)?",
+    "answers": [
+      "Abu Bakr",
+      "Umar ibn al-Khattab",
+      "Uthman ibn Affan",
+      "Ali ibn Abi Talib"
+    ],
+    "correctIndex": 0,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "What is the name of the fountain in Jannah (Paradise) promised to the Prophet (SAW)?",
+    "answers": [
+      "Zamzam",
+      "Al-Kawthar",
+      "Salsabil",
+      "Tasnim"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Who was the first martyr (Shaheed) in Islam?",
+    "answers": [
+      "Hamza ibn Abdul-Muttalib",
+      "Yasir ibn Amir",
+      "Sumayyah bint Khayyat",
+      "Bilal ibn Rabah"
+    ],
+    "correctIndex": 2,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which Surah is called \"The Beauty of the Quran\" (Arus al-Quran)?",
+    "answers": [
+      "Surah Yusuf",
+      "Surah Ar-Rahman",
+      "Surah Maryam",
+      "Surah Al-Waqi'a"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which companion was known as the \"Lion of Allah\" (Asadullah)?",
+    "answers": [
+      "Khalid ibn al-Walid",
+      "Hamza ibn Abdul-Muttalib",
+      "Umar ibn al-Khattab",
+      "Ali ibn Abi Talib"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "There is one Surah in the Quran that does not contain the letter 'Meem' (م). Which one is it?",
+    "answers": [
+      "Surah Al-Ikhlas",
+      "Surah Al-Kawthar",
+      "Surah Al-Asr",
+      "Surah Al-Fil"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which Sahabi was known as \"The Sword of Allah\" (Saifullah)?",
+    "answers": [
+      "Umar ibn al-Khattab",
+      "Khalid ibn al-Walid",
+      "Ali ibn Abi Talib",
+      "Ja'far ibn Abi Talib"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which Surah in the Quran contains two 'Bismillah-ir-Rahman-ir-Rahim's?",
+    "answers": [
+      "Surah Al-Fatiha",
+      "Surah An-Naml",
+      "Surah At-Tawbah",
+      "Surah Al-Baqarah"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which Surah is known as 'The Protector' (Al-Mani'ah) because it protects its reciter from the punishment of the grave?",
+    "answers": [
+      "Surah Ya-Sin",
+      "Surah Al-Mulk",
+      "Surah Al-Kahf",
+      "Surah Al-Waqi'a"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which Surah is the only one in the Quran to contain two prostrations (Sajdah)?",
+    "answers": [
+      "Surah Al-Hajj",
+      "Surah Al-Alaq",
+      "Surah An-Najm",
+      "Surah Al-Isra"
+    ],
+    "correctIndex": 0,
+    "difficulty": "medium",
+    "timeLimit": 30
+  }
+];
+
+export const set8: Question[] = [
+  {
+    "question": "What is the name of the holy book revealed to Prophet Muhammad (SAW)?",
+    "answers": [
+      "The Zabur",
+      "The Injil",
+      "The Quran",
+      "The Tawrat"
+    ],
+    "correctIndex": 2,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "In which month was the Holy Quran first revealed?",
+    "answers": [
+      "Ramadan",
+      "Shawwal",
+      "Muharram",
+      "Rajab"
+    ],
+    "correctIndex": 0,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which Prophet built the Ark to save believers and animals from a great flood?",
+    "answers": [
+      "Prophet Ibrahim (AS)",
+      "Prophet Nuh (AS)",
+      "Prophet Musa (AS)",
+      "Prophet Yunus (AS)"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which of these is the name of the voluntary prayer performed late at night?",
+    "answers": [
+      "Asr",
+      "Tahajjud",
+      "Dhuhr",
+      "Maghrib"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which Prophet was given the miracle of being able to soften iron with his hands and make chainmail?",
+    "answers": [
+      "Prophet Sulayman (AS)",
+      "Prophet Dawud (AS)",
+      "Prophet Idris (AS)",
+      "Prophet Zakariyya (AS)"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which Prophet was given the ability to understand the speech of ants and birds?",
+    "answers": [
+      "Prophet Dawud (AS)",
+      "Prophet Sulayman (AS)",
+      "Prophet Yunus (AS)",
+      "Prophet Idris (AS)"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which Surah in the Quran is the only one that does not contain a single instance of the letter 'Ra' (ر)?",
+    "answers": [
+      "Surah Al-Ikhlas",
+      "Surah Al-Kafirun",
+      "Surah An-Nas",
+      "Surah Al-Falaq"
+    ],
+    "correctIndex": 0,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which Prophet was given the miracle of bringing a clay bird to life by Allah's permission?",
+    "answers": [
+      "Prophet Ibrahim (AS)",
+      "Prophet Musa (AS)",
+      "Prophet Isa (AS)",
+      "Prophet Yusuf (AS)"
+    ],
+    "correctIndex": 2,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which Surah is the only one in the Quran named after a mineral or a metal?",
+    "answers": [
+      "Surah Al-Hadid (The Iron)",
+      "Surah An-Nur",
+      "Surah Az-Zumar",
+      "Surah Al-Kahf"
+    ],
+    "correctIndex": 0,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "The 'Cave of Thawr' is significant in Islamic history because it provided shelter to the Prophet (SAW) during what event?",
+    "answers": [
+      "The First Revelation",
+      "The Hijrah (Migration)",
+      "The Battle of Badr",
+      "The Conquest of Mecca"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "In the Quran, which specific group of people is described as 'Hablum minal-Nas' (A rope/link from the people)?",
+    "answers": [
+      "The Mujahideen",
+      "The People of the Book (Ahl al-Kitab)",
+      "The Ansar",
+      "The Muhajirun"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "Which Surah in the Quran is known as 'Al-Basrah' (The Insight) because it provides the most detail about the afterlife and the Day of Judgment?",
+    "answers": [
+      "Surah Al-Waqi'a",
+      "Surah Qaf",
+      "Surah Al-Haqqah",
+      "Surah Az-Zumar"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "In the 'Battle of the Trench' (Khandaq), which Jewish tribe broke their treaty with the Muslims, leading to the siege of their fortress?",
+    "answers": [
+      "Banu Qaynuqa",
+      "Banu Nadir",
+      "Banu Qurayza",
+      "Banu Bakr"
+    ],
+    "correctIndex": 2,
+    "difficulty": "medium",
+    "timeLimit": 30
+  },
+  {
+    "question": "In the Quran, there is one specific verse that contains every single letter of the Arabic alphabet. In which Surah is this verse found?",
+    "answers": [
+      "Surah Al-Baqarah (Verse 282)",
+      "Surah Al-Fath (Verse 29)",
+      "Surah Al-Ikhlas",
+      "Surah Ya-Sin"
+    ],
+    "correctIndex": 1,
+    "difficulty": "medium",
+    "timeLimit": 30
+  }
+];
+
+export const questionSets: Question[][] = [set1, set2, set3, set4, set5, set6, set7, set8];
 export const questions = set1; // Default for backward compatibility
+

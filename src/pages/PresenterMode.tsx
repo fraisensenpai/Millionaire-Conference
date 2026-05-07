@@ -286,7 +286,7 @@ export default function PresenterMode() {
             </div>
 
             <button onClick={() => handlePrepareGame(questionSets[0])} className="w-full py-3 bg-primary/20 text-primary border border-primary/30 rounded font-bold text-xs uppercase tracking-widest hover:bg-primary/30 transition-all">
-               Use Default Pool (Set 1)
+               Use Default Pool (GK 1)
             </button>
 
             {showJsonArea && (
@@ -333,13 +333,13 @@ export default function PresenterMode() {
                   <div key={i} className="px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4 hover:bg-white/5 transition-colors">
                     <span className="text-xl font-display font-bold uppercase text-white tracking-wide">{name}</span>
                     <div className="flex flex-wrap gap-2 justify-center">
-                      {[0, 1, 2, 3, 4].map((idx) => (
+                      {[0, 1, 2, 3, 4, 5, 6, 7].map((idx) => (
                         <button
                           key={idx}
                           onClick={() => handleStartGame(name, idx)}
                           className="px-3 py-2 bg-zinc-800 hover:bg-primary text-white text-[10px] font-bold rounded border border-zinc-700 transition-all uppercase"
                         >
-                          Set {idx + 1}
+                          {idx < 5 ? `GK ${idx + 1}` : `Rel. ${idx - 4}`}
                         </button>
                       ))}
                     </div>
